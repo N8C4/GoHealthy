@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here you can see the process you did."
+        android:textSize="15dp"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/colorPrimaryTextLight"
+        android:background="@color/colorAccent"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp" >
+
+            <me.itangqi.waveloadingview.WaveLoadingView
+                android:id="@+id/waveLoadingView1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:wlv_borderColor="@color/colorPrimary"
+                app:wlv_borderWidth="3dp"
+                app:wlv_progressValue="0"
+                app:wlv_shapeType="circle"
+
+                app:wlv_titleCenter="@string/process_label_one"
+                app:wlv_titleCenterColor="@color/colorPrimaryText"
+                app:wlv_titleCenterSize="18sp"
+                app:wlv_titleBottom="@string/process_label_one"
+                app:wlv_titleBottomColor="@color/colorPrimaryText"
+                app:wlv_titleBottomSize="18sp"
+
+                app:wlv_waveAmplitude="10"
+                app:wlv_waveColor="@color/colorPrimary"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"/>
+
+            <me.itangqi.waveloadingview.WaveLoadingView
+                android:id="@+id/waveLoadingView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:wlv_borderColor="@color/colorPrimary"
+                app:wlv_borderWidth="3dp"
+                app:wlv_progressValue="0"
+                app:wlv_shapeType="circle"
+
+                app:wlv_titleCenter="@string/process_label_two"
+                app:wlv_titleCenterColor="@color/colorPrimaryText"
+                app:wlv_titleCenterSize="18sp"
+                app:wlv_titleBottom="@string/process_label_one"
+                app:wlv_titleBottomColor="@color/colorPrimaryText"
+                app:wlv_titleBottomSize="18sp"
+
+                app:wlv_waveAmplitude="10"
+                app:wlv_waveColor="@color/colorPrimary"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <me.itangqi.waveloadingview.WaveLoadingView
+            android:id="@+id/waveLoadingView3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:wlv_borderColor="@color/colorPrimary"
+            app:wlv_borderWidth="3dp"
+            app:wlv_progressValue="0"
+            app:wlv_shapeType="circle"
+
+            app:wlv_titleCenter="@string/process_label_three"
+            app:wlv_titleCenterColor="@color/colorPrimaryText"
+            app:wlv_titleCenterSize="18sp"
+            app:wlv_titleBottom="@string/process_label_one"
+            app:wlv_titleBottomColor="@color/colorPrimaryText"
+            app:wlv_titleBottomSize="18sp"
+
+            app:wlv_waveAmplitude="10"
+            app:wlv_waveColor="@color/colorPrimary"
+            android:layout_weight="0.5"
+            android:layout_margin="10dp"/>
+
+        <me.itangqi.waveloadingview.WaveLoadingView
+            android:id="@+id/waveLoadingView4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:wlv_borderColor="@color/colorPrimary"
+            app:wlv_borderWidth="3dp"
+            app:wlv_progressValue="0"
+            app:wlv_shapeType="circle"
+
+            app:wlv_titleCenter="@string/process_label_four"
+            app:wlv_titleCenterColor="@color/colorPrimaryText"
+            app:wlv_titleCenterSize="18sp"
+            app:wlv_titleBottom="@string/process_label_one"
+            app:wlv_titleBottomColor="@color/colorPrimaryText"
+            app:wlv_titleBottomSize="18sp"
+
+            app:wlv_waveAmplitude="10"
+            app:wlv_waveColor="@color/colorPrimary"
+            android:layout_weight="0.5"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

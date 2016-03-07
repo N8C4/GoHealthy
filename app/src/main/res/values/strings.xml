@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">GoHealthy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Fragment -->
+    <string name="fragment_main">Main</string>
+    <string name="fragment_activity">Add Activity</string>
+    <string name="fragment_process">Check Process</string>
+    <string name="fragment_maps">Find Gym</string>
+
+    <!-- Process -->
+    <string name="process_label_one">One</string>
+    <string name="process_label_two">Two</string>
+    <string name="process_label_three">Three</string>
+    <string name="process_label_four">Four</string>
+
+    <!-- Activity Label -->
+    <string name="text_choose_activity">Choose Activity Type</string>
+    <string name="text_choose_date">Choose Activity Date</string>
+    <string name="text_choose_time">Choose Activity Time Duration (hours)</string>
+    <string name="text_save_activity">Save Activity</string>
+
+    <!-- Activity Button -->
+    <string-array name="spinner_activity_array">
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Weight Training</item>
+        <item>Group Workout</item>
+    </string-array>
+    <string name="button_activity_date">Add Activity Date</string>
+    <string name="button_save_activity">Save Activity</string>
+    <string name="button_save_setting">Save Setting</string>
+    <string name="button_delete_all">Delete All Activity</string>
+
+    <string name="text_hint_time">0</string>
+    <string name="text_hint_date">03-03-2016</string>
+    <string name="text_hint_goal">0</string>
+
+    <!-- Maps fragment -->
+    <string name="maps_key">AIzaSyDGPHWBIjPn3mf7pJpHD9kdoh-ceD2jqs0</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+</resources>
